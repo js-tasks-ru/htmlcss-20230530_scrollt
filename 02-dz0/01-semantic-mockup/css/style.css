@@ -1,0 +1,47 @@
+body {
+    background-color: #fdf0d5;
+    color: #331832;
+    font-size: 18px;
+}
+
+a {
+    color: #331832;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.header,
+.footer {
+    text-align: center;
+}
+
+.big_title,
+.header_nav {
+    background-color: #d81e5b;
+    padding: 10px 0;
+}
+
+.header_nav {
+    background-color: #c6d8d3;
+}
+
+.main {
+    margin: 5px;
+}
+
+.article {
+    padding: 10px;
+    background-color: #f0544f;
+}
+
+.article:nth-child(2) {
+    margin-top: 5px;
+}
+
+
+
