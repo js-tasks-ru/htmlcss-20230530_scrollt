@@ -1,0 +1,56 @@
+.accordion {
+    display: block;
+    background: #fff;
+    width: 730px;
+    padding: 24px 32px 32px 32px;
+    background-color: #FFFFFF;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.accordion:not(:first-child) {
+    margin-top: 8px;
+}
+
+.accordion_summary::-webkit-details-marker {
+    display: none;
+}
+
+.accordion_summary::-moz-list-bullet {
+    list-style-type: none;
+}
+
+.accordion_summary::marker {
+    display: none;
+}
+
+.accordion_summary {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212429;
+    cursor: pointer;
+    position: relative;
+}
+
+.accordion_summary:before {
+    top: 0;
+    right: 0;
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTYuNTkgOC41OUwxMiAxMy4xNyA3LjQxIDguNTkgNiAxMGw2IDYgNi02eiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4=") no-repeat 50% 50%;
+    width: 16px;
+    height: 8px;
+    content: "";
+    position: absolute;
+}
+
+.accordion_summary--grey {
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #495057;
+}
