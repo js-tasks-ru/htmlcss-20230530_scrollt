@@ -1,0 +1,53 @@
+
+
+.accordion__item {
+    padding: 24px 32px;
+    background-color: var(--white);
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.accordion__item[open] {
+    padding-bottom: 32px;
+}
+
+.accordion__item:not(:first-child) {
+    margin-top: 8px;
+}
+
+.accordion__summary::-webkit-details-marker {
+    display: none;
+}
+
+.accordion__summary {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+}
+
+.accordion__summary:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTYuNTkgOC41OUwxMiAxMy4xNyA3LjQxIDguNTkgNiAxMGw2IDYgNi02eiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4=") no-repeat 50% 50%;
+    width: 16px;
+    height: 8px;
+}
+
+.accordion__text {
+    font-family: 'Inter', sans-serif;
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-4);
+}
