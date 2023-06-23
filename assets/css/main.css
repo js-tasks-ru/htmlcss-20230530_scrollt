@@ -1,5 +1,7 @@
 @import '../../assets/css/normalize.css';
 @import '../fonts/fonts.css';
+@import '../../components/button/button.css';
+@import '../../components/accordion/accordion.css';
 @import '../../components/histogram/histogram.css';
 @import '../../components/skeleton/skeleton.css';
 @import '../../components/page/page.css';
