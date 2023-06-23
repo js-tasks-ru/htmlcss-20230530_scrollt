@@ -1,21 +1,4 @@
-body {
-    font-family: 'Inter';
-    font-style: normal;
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-p {
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
 
 .histogram {
     background: #FFFFFF;
@@ -66,9 +49,9 @@ a {
     align-items: end;
 }
 
-.histogram__graph__item {
+.histogram__graph-item {
     flex-grow: 1;
     background: #4263EB; 
-    min-height: 50px;
-    margin: 0 1px;
+
+    margin-right: 1px;
 }
