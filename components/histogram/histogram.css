@@ -4,6 +4,7 @@
     border-radius: 8px;
     padding: 16px 24px 24px;
     box-sizing: border-box;
+    width: 100%;
 }
 
 .histogram__header {
@@ -45,6 +46,7 @@
     display: flex;
     max-width: 100%;
     align-items: end;
+    height: 50px;
 }
 
 .histogram__graph-item {
