@@ -7,7 +7,7 @@
     position: absolute;
     opacity: 0;
     visibility: hidden;
-    bottom: 40px;
+    bottom: calc(100% + 8px);
     left: 50%;
     transform: translateX(-50%);
     font-family: 'Inter';
