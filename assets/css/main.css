@@ -11,6 +11,10 @@
 @import '../../components/card/card.css';
 @import '../../components/footer/footer.css';
 @import '../../components/section/section.css';
+@import '../../components/tooltip/tooltip.css';
+@import '../../components/modal/modal.css';
+@import '../../components/calendar/calendar.css';
+@import '../../components/template/template.css';
 
 :root {
     --white: #ffffff;
