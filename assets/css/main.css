@@ -15,6 +15,7 @@
 @import '../../components/modal/modal.css';
 @import '../../components/calendar/calendar.css';
 @import '../../components/template/template.css';
+@import '../../components/avatar/avatar.css';
 
 :root {
     --white: #ffffff;
